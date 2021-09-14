@@ -68,9 +68,13 @@
 }
 
 .titleSpan {
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding:0;
   margin:0;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+
+  text-decoration: underline;
 }
 
 .divProjects {
@@ -85,10 +89,6 @@
 }
 
 .projectsSpan1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
   width: 50vw;
 }
@@ -115,8 +115,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
 .projectP {
@@ -125,6 +124,7 @@
   padding: 0;
   padding-top: .5rem;
 }
+
 
 .projectA{
   margin: 0;
