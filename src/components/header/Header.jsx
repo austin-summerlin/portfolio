@@ -6,10 +6,7 @@ export default function Header() {
   return (
     <header className={style.Header}>
       <nav>
-        <Link to="/">[home]</Link>
-        <Link to="/about">[about]</Link>
-        <Link to="/projects">[projects]</Link>
-        <Link to="/contact">[connect]</Link>
+        <Link to="/">[S]</Link>
       </nav>
     </header>
   );
