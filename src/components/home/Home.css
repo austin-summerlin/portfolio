@@ -33,7 +33,7 @@
   margin:0;
   padding:0;
   padding-top: 2rem;
-  width: 60vw;
+  width: 80vw;
 }
 
 .aboutImg{
@@ -78,7 +78,7 @@
 
 .projectsSpan1 {
   flex-wrap: wrap;
-  width: 50vw;
+  width: 80vw;
 }
 
 .projectsSpan1 img {
