@@ -18,12 +18,10 @@ const Home = () => {
           spending time with my partner and our pets.
         </span>
         <div className={style.divContact}>
-          <span className={style.contactSpan1}>
-          </span>
           <span className={style.contactSpan2}>
             <a href="https://www.linkedin.com/in/austin-summerlin">[linkedin]</a>
             <a href="https://www.github.com/austin-summerlin">[github]</a>
-            <a href=" <a className='contactA' href='https://drive.google.com/file/d/1sFjtGWIyhesx61-uhb6z6T6M2N-Uaer4/view?usp=sharing">[resume]</a>
+            <a href="https://drive.google.com/file/d/1sFjtGWIyhesx61-uhb6z6T6M2N-Uaer4/view?usp=sharin">[resume]</a>
           </span>
         </div>
         <div className={style.divProjects}>
@@ -36,7 +34,7 @@ const Home = () => {
           </span>
         </div>
       </div>
-    </div>
+    </div >
 
   );
 };

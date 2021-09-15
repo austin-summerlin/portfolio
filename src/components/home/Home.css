@@ -1,51 +1,20 @@
-.divHome {
-  display: flex;
-  flex-direction: column;
-}
-
 .h1Home {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-
   padding: 0;
   margin: 0;
   padding-top: 3rem;
 
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-size: 2rem;
+  font-weight: 600;
   text-align: center;
-
 }
 
 .h2Home {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-
   padding: 0;
   margin: 0;
   padding-bottom: 2rem;
 
   font-size: 1.1rem;
-  font-weight: 400;
-  text-align: center;
-
-}
-
-.aboutSpan1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  font-size: .9rem;
-  font-weight: 400;
-
-  padding-top: 2rem;
-  width: 60vw;
+  font-weight: 600;
 }
 
 .divAbout {
@@ -53,28 +22,49 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  text-align: center;
+}
+
+.aboutSpan1 {
+  font-size: .9rem;
+  font-weight:400;
+
+  margin:0;
+  padding:0;
+  padding-top: 2rem;
+  width: 60vw;
 }
 
 .aboutImg{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
   width: 10rem;
 
   border:rgb(250, 70, 100) solid 1px;
   border-radius:  50%;
 }
 
+
+.divContact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 1rem;
+
+  font-size: 1rem;
+  font-weight: 400;
+}
+
 .titleSpan {
   font-size: 2rem;
+  font-weight: 600;
+  text-decoration: underline;
+  
   padding:0;
   margin:0;
   padding-top: 2rem;
   padding-bottom: 1.5rem;
-
-  text-decoration: underline;
 }
 
 .divProjects {
@@ -83,16 +73,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #050505;
-  color: rgb(250, 70, 100);
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+
 }
 
 .projectsSpan1 {
   flex-wrap: wrap;
   width: 50vw;
 }
-
 
 .projectsSpan1 img {
   border:rgb(250, 70, 100) solid 1px;
@@ -106,7 +93,10 @@
 
 .projectTitle {
   font-size: 1.5rem;
+  font-weight: 600;
+
   margin: 0;
+  padding-top: 1rem;
   padding-bottom: .5rem;
 }
 
@@ -115,16 +105,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 1rem;
+
+  padding-bottom: 3rem;
 }
 
 .projectP {
-  font-size: .9rem;
+  font-size: .8rem;
+  font-weight: 400;
+
   margin: 0;
   padding: 0;
   padding-top: .5rem;
 }
-
 
 .projectA{
   margin: 0;
@@ -132,21 +124,4 @@
   padding-bottom: .5rem;
 }
 
-.contactSpan1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  padding-top: 1rem;
-
-  font-size: 1rem;
-  font-weight: 400;
-}
-
-.contactSpan2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
 
