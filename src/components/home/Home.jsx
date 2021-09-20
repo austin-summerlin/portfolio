@@ -24,6 +24,16 @@ const Home = () => {
             <a href="https://drive.google.com/file/d/1sFjtGWIyhesx61-uhb6z6T6M2N-Uaer4/view?usp=sharin">[resume]</a>
           </span>
         </div>
+        <div>
+          <span className={style.techSpan}>
+            <p className={style.techSpanTitle}>Tech</p>
+            <p className={style.techSpanp}>Languages: JavaScript, CSS, HTML</p>
+            <p className={style.techSpanp}>Libraries/Frameworks: React, Node, Express, Puppeteer, ChartJS</p>
+            <p className={style.techSpanp}>Databases: PostgreSql, Sequelize</p>
+            <p className={style.techSpanp}>Testing: QUnit, Supertest, Jest, React Testing Library</p>
+            <p className={style.techSpanp}>DevTools: VsCode, Git, Github, Heroku, Netlify, Postman, pgAdmin, Miro, Notion</p>
+          </span>
+        </div>
         <div className={style.divProjects}>
           <span className={style.titleSpan}>Projects</span>
           <span className={style.projectsSpan1}>
