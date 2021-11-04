@@ -1,5 +1,19 @@
 import React from 'react';
+import { Switch, Route, Redirect } from 'react-router-dom';
+import Header from '../header/Header';
+import Home from '../home/Home';
+
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <div className="App">
+      <Header />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Redirect to="/" />
+      </Switch>
+    </div>
+
+  );
 }
+

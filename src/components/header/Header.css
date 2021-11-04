@@ -1,0 +1,19 @@
+.Header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem 1rem;
+  margin-bottom: 2rem;
+
+  border-bottom: solid 1px rgb(250, 70, 100);
+}
+
+a {
+  color: rgb(250, 70, 100);
+  font-size: .7rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: .7rem;
+
+  text-decoration: none;
+}
