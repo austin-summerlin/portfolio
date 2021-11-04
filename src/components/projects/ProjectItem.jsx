@@ -34,7 +34,7 @@ export const Project3 = () => (
 
 export const Project4 = () => (
   <section className={style.projectItem}>
-    <p className={style.projectTitle}>Ivy`&#39;s House of Horror</p>
+    <p className={style.projectTitle}>Ivy&#39;s House of Horror</p>
     <a className={style.projectA} href="https://gallant-tereshkova-df8eb1.netlify.app/">[Deployed]</a>
     <a className={style.projectA} href="https://github.com/austin-summerlin/full-stack-frontend">[Github-fe]</a>
     <a className={style.projectA} href="https://github.com/austin-summerlin/full-stack-backend">[Github-be]</a>
