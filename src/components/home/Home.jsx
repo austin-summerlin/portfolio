@@ -2,7 +2,7 @@
 // create a home component
 import React from 'react';
 import style from './Home.css';
-import { Project1, Project2, Project3 } from '../projects/ProjectItem';
+import { Project1, Project2, Project3, Project4 } from '../projects/ProjectItem';
 
 const Home = () => {
   return (
@@ -37,10 +37,10 @@ const Home = () => {
         <div className={style.divProjects}>
           <span className={style.titleSpan}>Projects</span>
           <span className={style.projectsSpan1}>
+            <Project4></Project4>
             <Project1></Project1>
             <Project2></Project2>
             <Project3></Project3>
-            {/* <Project4></Project4> */}
           </span>
         </div>
       </div>
