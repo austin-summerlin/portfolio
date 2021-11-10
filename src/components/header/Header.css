@@ -2,7 +2,10 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 0.5rem 1rem;
+  padding: 1rem 1rem;
+  margin-bottom: 2rem;
+
+  border-bottom: solid 1px rgb(250, 70, 100);
 }
 
 a {
