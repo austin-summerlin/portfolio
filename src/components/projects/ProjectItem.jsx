@@ -39,7 +39,7 @@ export const Project4 = () => (
     <a className={style.projectA} href="https://github.com/austin-summerlin/full-stack-frontend">[Github-fe]</a>
     <a className={style.projectA} href="https://github.com/austin-summerlin/full-stack-backend">[Github-be]</a>
     <img className={style.projectImg} src="/projects/houseofhorror.png" alt="House of Horror" />
-    <p className={style.projectP}>Ivy`&#39;s House of Horror is a horror themed movie database. I built an API in the backend using Node and postgreSQL and used React to display the results on the frontend. Made over the month of October as I watched as many movies as I could.</p>
+    <p className={style.projectP}>Ivy&#39;s House of Horror is a horror themed movie database. I built an API in the backend using Node and postgreSQL and used React to display the results on the frontend. Made over the month of October as I watched as many movies as I could.</p>
   </section>
 );
 
