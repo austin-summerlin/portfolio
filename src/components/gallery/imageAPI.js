@@ -1,4 +1,6 @@
 /* eslint-disable keyword-spacing */
+import { process } from 'dotenv';
+
 const API_URL = process.env.CLOUDINARY_URL;
 
 const getImages = async (nextCursor) => {
