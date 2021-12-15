@@ -7,6 +7,7 @@ export default function Header() {
     <header className={style.Header}>
       <nav>
         <Link to="/">[S]</Link>
+        <Link to="/gallery">[Gallery]</Link>
       </nav>
     </header>
   );
