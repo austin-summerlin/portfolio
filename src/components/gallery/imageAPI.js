@@ -1,5 +1,5 @@
 /* eslint-disable keyword-spacing */
-const API_URL = process.env.REACT_APP_API_URL;
+const API_URL = process.env.CLOUDINARY_URL;
 
 const getImages = async (nextCursor) => {
   const params = new URLSearchParams();
